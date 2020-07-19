@@ -1,0 +1,8 @@
+---
+
+- name: Test Ansible via Jenkins
+  hosts: all
+  
+  tasks: 
+    - name: Adding the user
+      user: name=milan state=present
